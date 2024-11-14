@@ -115,14 +115,7 @@ public class ConsoleService : IConsoleService
         // Create a task to read input
         Task inputTask = Task.Run(() =>
         {
-            try
-            {
-                userOtp = Console.ReadLine(); // Blocking call
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            userOtp = Console.ReadLine(); // Blocking call
         });
 
         // Wait for input or timeout
