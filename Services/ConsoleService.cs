@@ -69,6 +69,7 @@ public class ConsoleService : IConsoleService
         {
             Console.WriteLine(EmailConstants.STATUS_OTP_FAIL);
         }
+        Console.WriteLine("###############################################################");
     }
     #endregion
 
@@ -143,11 +144,13 @@ public class ConsoleService : IConsoleService
     {
         try
         {
+            //Assume email is sent out
             Console.WriteLine(emailBody);
             return true;
         }
         catch (Exception e)
         {
+            //Current implementstion there will be no exceptions
             return false;
         }
 
@@ -165,7 +168,7 @@ public class ConsoleService : IConsoleService
         userEmail = userEmail.Trim();
         
         //validate with regex
-        string emailPattern = @"^[a-zA-Z0-9.]+@[a-zA-Z0-9.-]+\.dso\.org\.sg$";
+        string emailPattern = @"^[a-zA-Z0-9.]+@dso\.org\.sg$";
 
         if (!Regex.IsMatch(userEmail, emailPattern))
         {
