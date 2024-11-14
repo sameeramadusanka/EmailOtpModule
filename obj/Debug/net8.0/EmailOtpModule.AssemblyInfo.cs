@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmailOtpModule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f50a5e82192a4f7eb3c74ed4271e768dc0cb6ec6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmailOtpModule")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmailOtpModule")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

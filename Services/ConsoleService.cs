@@ -78,9 +78,6 @@ public class ConsoleService : IConsoleService
 
         if (_currentOtp == null || DateTime.Now > _otpExpiryTime)
         {
-            Console.WriteLine(_currentOtp);
-            Console.WriteLine(DateTime.Now);
-            Console.WriteLine(_otpExpiryTime);
             return OtpStatus.STATUS_OTP_TIMEOUT;
         }
 
