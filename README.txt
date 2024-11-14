@@ -7,7 +7,7 @@ In the code there are few assumptions
     1. Email assumed sent out
     2. Email sending failed exception will never hit in current implementation
 
-I have created this project in VS code using dotnet CLI
+I have created this project in VS code using dotnet CLI because I'm using a macbook and I cannot install Visual Studio.
 
 To run the project use below steps
     1. Open project folder in VS code
